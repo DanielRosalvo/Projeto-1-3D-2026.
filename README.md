@@ -1,2 +1,2 @@
-# Projeto-1-3D-2026.
-Primeiro projeto de 2026 desenvolvido no Colégio Gastão Vidigal na turma do 3ºD na disciplina de matematica 2. Participantes: Daniel Rosalvo, Gabrielli Cristina
+# Projeto-1---terceiros-2026
+Projeto de vida - Atividade desenvolvida nos terceiros anos do Gastão em 2026
