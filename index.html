@@ -4,57 +4,182 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meus objetivos do ano</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Meus jogos favoritos</title>
+
+    <!-- Fonte diferente -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            background: linear-gradient(135deg, #111827, #1e3a8a);
+            font-family: 'Poppins', sans-serif;
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+
+        .conteudo-principal {
+            width: 90%;
+            margin: auto;
+            padding: 30px;
+        }
+
+        .titulo-principal {
+            text-align: center;
+            font-size: 42px;
+            color: #60a5fa;
+        }
+
+        .titulo-principal span {
+            color: #facc15;
+        }
+
+        .botoes {
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+            margin-bottom: 30px;
+            flex-wrap: wrap;
+        }
+
+        .botao {
+            background-color: #2563eb;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            border-radius: 12px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: 0.3s;
+        }
+
+        .botao:hover {
+            background-color: #1d4ed8;
+            transform: scale(1.05);
+        }
+
+        .aba-conteudo {
+            background-color: rgba(255,255,255,0.08);
+            border-radius: 20px;
+            padding: 25px;
+            margin-bottom: 25px;
+            text-align: center;
+        }
+
+        .aba-conteudo img {
+            width: 320px;
+            border-radius: 15px;
+            margin-top: 15px;
+        }
+
+        .aba-conteudo-titulo-principal {
+            color: #facc15;
+            font-size: 28px;
+        }
+
+        .aba-conteudo-titulo-secundario {
+            color: #93c5fd;
+            margin-top: 20px;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+    </style>
 </head>
 
 <body>
+
     <section class="conteudo-principal">
+
         <h2 class="titulo-principal">Meus jogos favoritos<span>_</span></h2>
+
         <div class="conteudo">
+
             <div class="botoes">
-                <button class="botao ativo">Don't Starve</button>
+                <button class="botao">Don't Starve</button>
                 <button class="botao">Assassin's Creed IV</button>
                 <button class="botao">God of War</button>
                 <button class="botao">League of Legends</button>
             </div>
+
             <div class="abas-textos">
-                <div class="aba-conteudo ativo">
-                    <h3 class="aba-conteudo-titulo-principal">É um jogo de sobrevivência e fantasia.</h3>
-                    <p align="center">
+
+                <div class="aba-conteudo">
+                    <h3 class="aba-conteudo-titulo-principal">
+                        Don't Starve
+                    </h3>
+
+                    <p>
+                        Um jogo de sobrevivência em um mundo sombrio e misterioso,
+                        onde o jogador precisa explorar, construir recursos e enfrentar criaturas perigosas.
+                    </p>
+
                     <img src="img/dontstarve.jpg" alt="Don't Starve">
-                </p>
-                    <h4 class="aba-conteudo-titulo-secundario">Saiba mais acessando:</h4>
-                    </div>
+
+                    <h4 class="aba-conteudo-titulo-secundario">
+                        Sobreviva o máximo possível.
+                    </h4>
                 </div>
+
                 <div class="aba-conteudo">
-                    <h3 class="aba-conteudo-titulo-principal">É um jogo de piratas saqueadores.</h3>
-                    <p align="center">
-                    <img src="img/aciv.jpeg" alt="Assassin's Creed Black Flag"
+                    <h3 class="aba-conteudo-titulo-principal">
+                        Assassin's Creed IV
+                    </h3>
+
+                    <p>
+                        Uma aventura de piratas nos mares do Caribe,
+                        com batalhas navais, exploração e muita ação.
                     </p>
-                    <h4 class="aba-conteudo-titulo-secundario">Saiba mais acessando:</h4>
-                    </div>
+
+                    <img src="img/aciv.jpeg" alt="Assassin's Creed Black Flag">
+
+                    <h4 class="aba-conteudo-titulo-secundario">
+                        Navegue e conquiste os oceanos.
+                    </h4>
                 </div>
+
                 <div class="aba-conteudo">
-                    <h3 class="aba-conteudo-titulo-principal">É um jogo sobre deuses.</h3>
-                    <p align="center">
-                    <img src="img/godofwar.jpg" alt="God of War"
+                    <h3 class="aba-conteudo-titulo-principal">
+                        God of War
+                    </h3>
+
+                    <p>
+                        Um jogo inspirado na mitologia nórdica e grega,
+                        focado em batalhas épicas e na jornada de Kratos.
                     </p>
-                    <h4 class="aba-conteudo-titulo-secundario">Saiba mais acessando:</h4>
-                    </div>
+
+                    <img src="img/godofwar.jpg" alt="God of War">
+
+                    <h4 class="aba-conteudo-titulo-secundario">
+                        Enfrente deuses e monstros lendários.
+                    </h4>
                 </div>
+
                 <div class="aba-conteudo">
-                    <h3 class="aba-conteudo-titulo-principal">É o melhor jogo da história.</h3>
-                    <p align="center">
-                    <img src="img/leagueoflegends.png" width = "300" alt="League of Legends">
+                    <h3 class="aba-conteudo-titulo-principal">
+                        League of Legends
+                    </h3>
+
+                    <p>
+                        Um jogo competitivo online em equipe,
+                        com estratégia, campeões únicos e partidas intensas.
                     </p>
-                    <h4 class="aba-conteudo-titulo-secundario">Saiba mais acessando:</h4>
-                    </div>
+
+                    <img src="img/leagueoflegends.png" width="300" alt="League of Legends">
+
+                    <h4 class="aba-conteudo-titulo-secundario">
+                        Trabalhe em equipe para destruir o Nexus inimigo.
+                    </h4>
                 </div>
+
             </div>
+
         </div>
+
     </section>
-    <script src="main.js"></script>
+
 </body>
 
 </html>
